@@ -3,7 +3,7 @@ var colPal = [
 	[42,157,143],
 	[233,196,106],
 	[244,162,97],
-	[231,111,81],
+	[231,111,81]
 	];
   
 function setup() {
@@ -13,7 +13,7 @@ function setup() {
 	let x = window.width/2;
 	let y = window.height/2;
 	noStroke(0);
-	
+
 	for (i=0; i<fibSeq.length;i++){
 		d = fibSeq.length-1-i;
 		fill(colPal[d][0],colPal[d][1],colPal[d][2]);
